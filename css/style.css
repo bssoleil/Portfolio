@@ -1,0 +1,27 @@
+
+
+
+    /* font-family: 'Montserrat Subrayada', sans-serif;
+
+
+    font-family: 'Roboto Slab', serif;
+ */
+
+.header {
+    background-image: url("/img/image-bg.jpeg");
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+  
+.header .navbar .menu {
+    float: right;
+}
+
+
+
+    
+    
+
