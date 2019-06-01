@@ -23,10 +23,29 @@
   
 .header .navbar .menu {
     float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin-top: 50px; 
+}
+
+.header .navbar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header .navbar .menu ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
 }
 
 
 
-    
+     
     
 
