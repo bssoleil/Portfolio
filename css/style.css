@@ -8,7 +8,12 @@
  */
 
 .header {
-    background-image: url("/img/image-bg.jpeg");
+    background-image: url("../img/image-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 1300px;
+
 }
 
 .container {
