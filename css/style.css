@@ -7,13 +7,24 @@
     font-family: 'Roboto Slab', serif;
  */
 
+
+ html {
+    scroll-behavior: smooth;
+ }
 .header {
-    background-image: url("../img/image-bg.jpeg");
+    background:url("../img/image-bg.jpeg") no-repeat center ;
+    
+    background-size: cover;
+    height: 100vh;
+    /* background-image: url("../img/image-bg.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1000px;
-    width: 1300px;
-
+    height: 1000px; */
+    /* width: 1300px; */
+    /* width: 100vh; */
+    /* width: 100vmax;
+    height: 100vmin; */
+    /* max-width: 100%; */
 }
 
 .container {
@@ -25,7 +36,9 @@
     float: right;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    margin-top: 50px; 
+    margin-top: 50px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    
 }
 
 .header .navbar .menu ul {
@@ -43,6 +56,67 @@
     color: #fff;
     text-decoration: none;
 }
+
+.clearfix {
+    clear: both;
+}
+
+.header .accueil {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.header .accueil h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+.header .accueil h2 {
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Mes Réalisations (Projets) */
+
+.projets {
+    padding: 120px 0;
+    background-color: darkgray;
+}
+
+.projets .section-title {
+    text-align: center;
+}
+
+.projets .section-title h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.projets .section-title p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.projets .row1 .item {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+    text-align: center;
+}
+
+.projets .row1 .item img {
+    width: 100%;
+    /* padding-top: 25%; */
+}
+
+.projets .row1 .item p {
+    font-style: italic;
+}
+
+
 
 
 
