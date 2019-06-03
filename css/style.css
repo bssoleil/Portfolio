@@ -105,6 +105,7 @@
     width: 46%;
     margin-right: 2%;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .projets .row1 .item img {
@@ -113,6 +114,22 @@
 }
 
 .projets .row1 .item p {
+    font-style: italic;
+}
+
+.projets .row2 .item {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.projets .row2 .item img {
+    width: 100%;
+}
+
+.projets .row2 .item p {
     font-style: italic;
 }
 
