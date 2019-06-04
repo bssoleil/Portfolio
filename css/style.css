@@ -11,6 +11,7 @@
  html {
     scroll-behavior: smooth;
  }
+
 .header {
     background:url("../img/image-bg.jpeg") no-repeat center ;
     
@@ -53,8 +54,9 @@
 }
 
 .header .navbar ul li a {
-    color: #fff;
+    color: black;
     text-decoration: none;
+    font-size: 16px;
 }
 
 .clearfix {
@@ -69,6 +71,7 @@
 .header .accueil h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    
 }
 
 .header .accueil h2 {
@@ -87,6 +90,7 @@
 
 .projets .section-title {
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .projets .section-title h1 {
@@ -98,6 +102,10 @@
 .projets .section-title p {
     font-style: italic;
     font-size: 16px;
+}
+
+.projets .row1 {
+    margin-bottom: 50px;
 }
 
 .projets .row1 .item {
@@ -132,6 +140,42 @@
 .projets .row2 .item p {
     font-style: italic;
 }
+
+     /* Compétences css */
+
+.competence {
+	color: #c5cae9;
+	font-weight: bold;
+	text-shadow: 2px 2px #222;
+}
+
+.barre {
+	width: 100%;
+	background-color: #c5cae9;
+	border-radius: 10px;
+	border: 1px solid #fff;
+}
+
+div {
+	border-radius: 10px;
+}
+
+.niveau {
+	text-align: right;
+	padding: 10px;
+	color: #212121;
+}
+
+.html { width: 60%; background-color: #607d8b; }
+.css { width: 50%; background-color: #607d8b; }
+.js { width: 40%; background-color: #607d8b; }
+.vueJs { width: 30%; background-color: #607d8b; }
+.react { width: 30%; background-color: #607d8b; }
+.vScode {width: 50%; background-color: #607d8b;}
+.vim {width: 30%; background-color: #607d8b;}
+.github {width: 40%; background-color: #607d8b;}
+.linux { width: 50%; background-color: #607d8b; }
+
 
 
 
