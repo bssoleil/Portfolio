@@ -10,10 +10,12 @@
 
  html {
     scroll-behavior: smooth;
+    
  }
 
 .header {
     background:url("../img/image-bg.jpeg") no-repeat center ;
+    opacity: 0.8;
     
     background-size: cover;
     height: 100vh;
@@ -32,7 +34,11 @@
     width: 1170px;
     margin: 0 auto;
 }
-  
+ 
+.menu {
+    text-shadow: #fff 2px 4px 2px;
+
+}
 .header .navbar .menu {
     float: right;
     font-family: 'Montserrat', sans-serif;
@@ -57,6 +63,7 @@
     color: black;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold; 
 }
 
 .clearfix {
@@ -71,6 +78,7 @@
 .header .accueil h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
+    text-shadow: #fff 2px 4px 2px;
     
 }
 
@@ -176,6 +184,92 @@ div {
 .github {width: 40%; background-color: #607d8b;}
 .linux { width: 50%; background-color: #607d8b; }
 
+    /* Formulaire de contact */
+
+    fieldset {
+        margin: 15px;
+        color: #fff;
+        border: 2px solid #fff;
+        border-radius: 15px;
+    
+        background-color: lightgrey;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    input[type="text"],input[type="email"], textarea {
+        font-family: Arial;
+        font-size: 1.5rem;
+    
+        border: 2px solid #607d8b;
+        border-radius: 10px;
+        padding: 6px;
+    
+        width: 90%;
+    }
+
+    input[name="check"] {
+        width: 17px;
+        padding: 4px;
+    }
+    
+    input[type="text"]:focus, input[type="number"]:focus, textarea:focus, input[type="email"]:focus {
+            background-color: #faffaf;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    
+        box-shadow: 0 0 16px #333;
+    }
+
+    footer {
+        background-color: #c5cae9;
+    
+        text-align: right;
+        color: #c5cae9;
+        line-height: 1.8;
+        padding: 10px;
+        margin-bottom: 10px;
+    
+        border-top: 2px solid #c5cae9;
+        border-bottom: 2px solid #c5cae9;
+
+    }
+
+
+    a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+    ul {
+	margin: 5px;
+	padding: 5px;
+}
+
+    li {
+	display: inline;
+}
+
+
+.txt-center {
+	text-align: center;
+}
+
+#go {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+}
+
+
+    
+    
 
 
 
